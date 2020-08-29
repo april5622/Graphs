@@ -108,6 +108,7 @@ class Graph:
         for child_vertex in self.vertices[starting_vertex]:
             if child_vertex not in visited:
                 self.dft_recursive(child_vertex, visited)
+                
 
     def bfs(self, starting_vertex, destination_vertex):
         """

@@ -29,6 +29,13 @@ player = Player(world.starting_room)
 # traversal_path = ['n', 'n']
 traversal_path = []
 
+# randomize the dirction for the start room you enter
+
+# dft. traversal graph as a parallel to track visited room and the their directions. 
+# DFT. travel as a player when you traversal
+# traversal path is to track every single move/direction we head to
+# BFS to find closest unvisited room by just using get exit. DO NOT TRAVEL
+# when path found
 
 
 # TRAVERSAL TEST
